@@ -1,12 +1,3 @@
 .App {
   text-align: center;
 }
-
-.jumbotron {
-  background-color: rgba(0, 0, 0, 0.7)!important;
-  color: white;
-}
-
-input, textarea, select {
-  width: 100%;
-}

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'bootstrap-4-react';
-import { PrimaryButton } from '../../UI/button';
+import { CTButton } from '../../UI/button';
 
 export const ContactForm = () => 
         <Row>
@@ -31,7 +31,7 @@ export const ContactForm = () =>
                 </Row>
                 <Row>
                     <Col display="flex" flex="column" alignItems="start">
-                        <PrimaryButton text="Send"/>
+                        <CTButton text="Send"/>
                     </Col>
                 </Row>
             </Col>

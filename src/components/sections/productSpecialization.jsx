@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Container, Card } from 'bootstrap-4-react';
-import { PrimaryButton } from '../UI/button';
+import { CTButton } from '../UI/button';
 
 const productItems = [
     {
@@ -45,7 +45,7 @@ export const ProductSpecialization = () => {
                                     <Card.Text>
                                         {item.description}
                                     </Card.Text>
-                                    <PrimaryButton text="Get a quote"/>
+                                    <CTButton text="Get a quote"/>
                                 </Card.Body>
                             </Card>
                         </Col>

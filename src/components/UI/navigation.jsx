@@ -6,7 +6,7 @@ export const Navigation = () =>
     <Navbar expand="lg" light bg="light">
         <Container>
             <Navbar.Brand href="#">
-                Navbar
+                CT
             </Navbar.Brand>
             <Navbar.Toggler target="#navbarSupportedContent" />
             <Collapse navbar id="navbarSupportedContent" className="justify-content-end">

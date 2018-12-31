@@ -1,0 +1,16 @@
+#app {
+    text-align: center;
+}
+#app .jumbotron {
+    background-color: rgba(0, 0, 0, 0.7)!important;
+    color: white;
+}
+
+input, textarea, select {
+    width: 100%;
+}
+
+#app button {
+    border-radius: 0px;
+    text-transform: uppercase;
+}

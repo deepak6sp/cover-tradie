@@ -1,12 +1,16 @@
 import React from 'react';
-import { Container, Jumbotron, Display4, Lead } from 'bootstrap-4-react';
-import { PrimaryButton } from './button';
+import { Row, Col, Container, Jumbotron, Display4, Lead } from 'bootstrap-4-react';
+import { CTButton } from './button';
 
 export const Banner = () => 
     <Jumbotron style={{textAlign: 'left'}}>
         <Container>
-            <Display4>Insurance do matter</Display4>
-            <Lead>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</Lead>
-            <PrimaryButton text="Get a quote"/>
+            <Row>
+                <Col col="col lg-6">
+                    <Display4>Insurance do matter</Display4>
+                    <Lead>This is a simple banner unit.</Lead>
+                    <CTButton text="Get a quote"/>
+                </Col>
+            </Row>
         </Container>
     </Jumbotron>
