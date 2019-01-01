@@ -3,7 +3,7 @@ import { Row, Col, Jumbotron } from 'bootstrap-4-react';
 
 export const AboutUs = () => 
     <Jumbotron>
-        <h4>About us</h4>
+        <h4 className="inverse">About us</h4>
         <Row>
             <Col col="6" offset="3">
              <p>Lorem Ipsum is simply dummy text of the printing and typesetting 

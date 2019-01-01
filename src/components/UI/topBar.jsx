@@ -1,19 +1,18 @@
 import React from 'react';
 import { Container, Navbar, Nav } from 'bootstrap-4-react';
-
-const topBarstyle = {
-    backgroundColor: '#2A2975'
-}
+import Icons from '../svg/icons.jsx';
+import { SocialLinks } from './socialLinks';
 
 export const TopBar = () =>
     
-    <Navbar dark style={topBarstyle} >
+    <Navbar className="topbar">
         <Container>
-            <Navbar.Nav>
-                <Nav.ItemLink>Contact</Nav.ItemLink>
+            <Navbar.Nav className="left" display="flex" flex="row">
+                <Nav.ItemLink><img alt="phone" src={Icons.phone} />(03) 0000 0000</Nav.ItemLink>
+                <Nav.ItemLink><img alt="email" src={Icons.email} />mail@mail.com</Nav.ItemLink>
             </Navbar.Nav>
-             <Navbar.Nav>
-                <Nav.ItemLink>social icons</Nav.ItemLink>
+            <Navbar.Nav display="flex" flex="row" className="right">
+               <SocialLinks />
             </Navbar.Nav>
         </Container>
     </Navbar>;

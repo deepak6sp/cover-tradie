@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import './overwrite.css';
 import { Header } from './components/sections/header';
 import { InfiniteSlide } from './components/UI/infiniteSlide/infiniteSlide';
 import { ProductSpecialization } from './components/sections/productSpecialization';

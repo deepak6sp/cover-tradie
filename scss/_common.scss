@@ -1,0 +1,26 @@
+.jumbotron {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    .lead {
+        color: $yellow;
+    }
+  
+}
+
+.jumbotron, .container {
+    h4 {
+        color: $blue;
+        text-transform: capitalize;
+        &.inverse {
+            color: white;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        padding: 0;
+    }
+}

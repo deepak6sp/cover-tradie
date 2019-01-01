@@ -3,10 +3,10 @@ import { Row, Col, Container, Jumbotron, Display4, Lead } from 'bootstrap-4-reac
 import { CTButton } from './button';
 
 export const Banner = () => 
-    <Jumbotron style={{textAlign: 'left'}}>
+    <Jumbotron className="banner">
         <Container>
             <Row>
-                <Col col="col lg-6">
+                <Col col="col lg-8">
                     <Display4>Insurance do matter</Display4>
                     <Lead>This is a simple banner unit.</Lead>
                     <CTButton text="Get a quote"/>

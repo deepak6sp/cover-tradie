@@ -1,0 +1,18 @@
+#app {
+    
+
+    @import './variables';
+    @import './common';
+    @import './components/UI/button';
+    @import './components/UI/topbar';
+    @import './components/UI/navigation';
+    @import './components/UI/banner';
+    @import './components/UI/infiniteSlide';
+
+    @import './components/sections/productSpecialization';
+    @import './components/sections/chooseUs';
+    
+
+    background-color: $grey;
+}
+

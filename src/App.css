@@ -1,3 +1,102 @@
-.App {
+#app {
+  background-color: #f8f8f8;
+}
+#app .jumbotron {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+#app .jumbotron .lead {
+  color: #fcb13b;
+}
+#app .jumbotron h4, #app .container h4 {
+  color: #292974;
+  text-transform: capitalize;
+}
+#app .jumbotron h4.inverse, #app .container h4.inverse {
+  color: white;
+}
+@media (max-width: 991px) {
+  #app .container {
+    padding: 0;
+  }
+}
+#app button.btn {
+  background: #fcb13b;
+  border-radius: 0px;
+}
+#app .topbar {
+  background-color: #292974;
+}
+#app .topbar ul li a {
+  color: white;
+}
+#app .topbar .left img {
+  margin-right: 0.5rem;
+}
+#app .topbar .left .nav-item {
+  margin-right: 2rem;
+}
+#app .topbar .right img {
+  margin-left: 2em;
+}
+#app .navigation ul li:last-child a {
+  padding-right: 0;
+}
+#app .navigation ul li a {
+  color: #292974;
+  font-weight: bold;
+  margin-left: 1em;
+}
+#app .banner {
+  text-align: left;
+}
+#app .banner .display-4 {
+  text-transform: uppercase;
+}
+#app .infiniteSlide {
+  background-color: white;
+}
+#app .productSpecialization {
   text-align: center;
 }
+#app .productSpecialization h4 {
+  margin: 2em 0em;
+}
+#app .productSpecialization .card {
+  margin-bottom: 3em;
+  border-top: 0.05em solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#app .productSpecialization .card .card-title {
+  text-transform: uppercase;
+}
+#app .productSpecialization .card .card-title .underline:after {
+  content: "";
+  border-bottom: 0.1em solid black;
+  width: 2em;
+  display: block;
+  text-align: center;
+  margin: 0.5em auto;
+}
+#app .productSpecialization .card .card-text {
+  padding: 0.5em;
+}
+#app .productSpecialization .card img {
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+#app .chooseUs.jumbotron {
+  padding-bottom: 0;
+}
+#app .chooseUs h4 {
+  text-align: center;
+  margin-bottom: 2em;
+}
+#app .chooseUs .choose-items {
+  text-align: left;
+  margin-bottom: 4em;
+}
+
+/*# sourceMappingURL=App.css.map */

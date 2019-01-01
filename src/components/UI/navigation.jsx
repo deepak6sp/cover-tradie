@@ -3,7 +3,7 @@ import { Container, Navbar, Nav, Collapse } from 'bootstrap-4-react';
 
 export const Navigation = () =>
     
-    <Navbar expand="lg" light bg="light">
+    <Navbar expand="lg" light bg="light" className="navigation">
         <Container>
             <Navbar.Brand href="#">
                 CT

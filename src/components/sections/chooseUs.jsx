@@ -1,60 +1,75 @@
-import React from 'react';
-import { Row, Col, Jumbotron } from 'bootstrap-4-react';
+import React, { Component } from 'react';
+import { Row, Col, Jumbotron, Container } from 'bootstrap-4-react';
+import Icons from '../svg/icons.jsx';
 
 const chooseItems = [
     {
+        icon: 'trust',
         description: 'Trusted over 1million people',
         caption: 'The name that people trust'
     },
     {
+        icon: 'eClaim',
         description: 'Easy claim',
         caption: 'Easy claim procedures with no assle'
     },
     {
+        icon: 'dClaim',
         description: 'Direct claim settlement',
         caption: 'lorem ip sum'
     },
     {
+        icon: 'money',
         description: 'Save your money',
         caption: 'lorem ip sum'
     },
     {
+        icon: 'support',
         description: 'Best support',
         caption: 'lorem ip sum'
     },
     {
+        icon: 'policy',
         description: 'Instant online policy',
         caption: 'lorem ip sum'
     }
 ];
 
-const colStyle = {
-    textAlign: 'left'
-}
+export class ChooseUs extends Component {
 
-export const ChooseUs = () => {
-    return  (
-        <Jumbotron>
-            <h4>Why choose us</h4>
-            <Row>
-            {
-                chooseItems.map( (item, index) => {
-                    return (
-                        <Col col="6" key={index}>
-                            <Row>
-                                <Col col="2" offset="2">
-                                    icon
-                                </Col>
-                                <Col col="6" style={colStyle}>
-                                    <div>{item.description}</div>
-                                    <div>{item.caption}</div>
-                                </Col>
-                            </Row>
-                        </Col>
-                    )
-                })
-            }
-            </Row>
-        </Jumbotron>
-    )
+    chooseItems = () => {
+        return (
+            chooseItems.map( (item, index) => {
+                let offsetClassValue = "lg-1";
+                if( index%2 == 0 ) offsetClassValue = "lg-2";
+                return (
+                    <Col col="12 md-6 lg-4" offset={offsetClassValue} key={index}>
+                        <Row className='choose-items'> 
+                            <Col col="2" >
+                                <img src={Icons[item.icon]}/>
+                            </Col>
+                            <Col col="10">
+                                <div>{item.description}</div>
+                                <div>{item.caption}</div>
+                            </Col>
+                        </Row>
+                    </Col>
+                )
+            })
+        )
+    }
+
+    render() {
+        return  (
+            <Jumbotron className="chooseUs">
+                <Container>
+                <h4 className="inverse">Why choose us</h4>
+                <Row>
+                    { this.chooseItems() }
+                </Row>
+                </Container>
+            </Jumbotron>
+        )
+    }
+    
 }

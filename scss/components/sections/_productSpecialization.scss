@@ -1,0 +1,30 @@
+.productSpecialization {
+    text-align: center;
+    h4 {
+        margin: 2em 0em;
+    }
+    .card {
+        margin-bottom: 3em;
+        border-top: 0.05em solid black;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        .card-title {
+            text-transform: uppercase;
+            .underline:after {
+                content: "";
+                border-bottom: 0.1em solid black;
+                width: 2em;
+                display: block;
+                text-align: center;
+                margin: 0.5em auto;
+            } 
+        }
+        .card-text {
+            padding: 0.5em;
+        }
+        img {
+            margin-top: 0.5em;
+            margin-bottom: 2em;
+        }
+    }
+   
+}

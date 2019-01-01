@@ -1,0 +1,12 @@
+.navigation {
+    ul li {
+        &:last-child {
+            a { padding-right: 0; }
+        }
+        a {
+            color: $blue;
+            font-weight: bold;
+            margin-left: 1em;
+        }
+    }
+}
