@@ -3,8 +3,8 @@ import { Row, Col } from 'bootstrap-4-react';
 import { CTButton } from '../../UI/button';
 
 export const ContactForm = () => 
-        <Row>
-            <Col col="12">
+        <Row className="contactForm">
+            <Col col="12 lg-11">
                 <Row>
                     <Col col="12" display="flex" flex="column" alignItems="start">
                         <label>Name</label>
@@ -20,13 +20,13 @@ export const ContactForm = () =>
                 <Row>
                     <Col col="12" display="flex" flex="column" alignItems="start">
                         <label>Address</label>
-                        <textarea />
+                        <textarea rows="6"/>
                     </Col>
                 </Row>
                 <Row>
                     <Col col="12" display="flex" flex="column" alignItems="start">
                         <label>Message</label>
-                        <textarea />
+                        <textarea rows="6"/>
                     </Col>
                 </Row>
                 <Row>

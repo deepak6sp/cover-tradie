@@ -1,4 +1,7 @@
 .navigation {
+    .container {
+        padding: 0px 15px;
+    }
     ul li {
         &:last-child {
             a { padding-right: 0; }
@@ -6,7 +9,9 @@
         a {
             color: $blue;
             font-weight: bold;
-            margin-left: 1em;
+            @media (min-width: 991px) {
+                margin-left: 1em;
+            }
         }
     }
 }

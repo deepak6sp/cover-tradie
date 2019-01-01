@@ -1,0 +1,19 @@
+.contactUs {
+    text-align: center;
+    h4 {
+        margin-top: 2em;
+    }
+    .contactForm {
+        input {
+            height: 2em;
+        }
+        input, select, textarea {
+            width: 100%;
+            margin-bottom: 1em;
+        }
+    }
+    button {
+        min-width: 10em;
+        margin-bottom: 2em;
+    }
+}

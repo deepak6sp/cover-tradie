@@ -17,14 +17,11 @@
 #app .jumbotron h4.inverse, #app .container h4.inverse {
   color: white;
 }
-@media (max-width: 991px) {
-  #app .container {
-    padding: 0;
-  }
-}
 #app button.btn {
   background: #fcb13b;
   border-radius: 0px;
+  color: white;
+  text-transform: uppercase;
 }
 #app .topbar {
   background-color: #292974;
@@ -41,13 +38,20 @@
 #app .topbar .right img {
   margin-left: 2em;
 }
+#app .navigation .container {
+  padding: 0px 15px;
+}
 #app .navigation ul li:last-child a {
   padding-right: 0;
 }
 #app .navigation ul li a {
   color: #292974;
   font-weight: bold;
-  margin-left: 1em;
+}
+@media (min-width: 991px) {
+  #app .navigation ul li a {
+    margin-left: 1em;
+  }
 }
 #app .banner {
   text-align: left;
@@ -97,6 +101,30 @@
 #app .chooseUs .choose-items {
   text-align: left;
   margin-bottom: 4em;
+}
+#app .contactUs {
+  text-align: center;
+}
+#app .contactUs h4 {
+  margin-top: 2em;
+}
+#app .contactUs .contactForm input {
+  height: 2em;
+}
+#app .contactUs .contactForm input, #app .contactUs .contactForm select, #app .contactUs .contactForm textarea {
+  width: 100%;
+  margin-bottom: 1em;
+}
+#app .contactUs button {
+  min-width: 10em;
+  margin-bottom: 2em;
+}
+#app .subscribe {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+#app .subscribe .d-flex {
+  justify-content: center;
 }
 
 /*# sourceMappingURL=App.css.map */
