@@ -8,11 +8,17 @@
     @import './components/UI/navigation';
     @import './components/UI/banner';
     @import './components/UI/infiniteSlide';
+    @import './components/UI/socialLinks';
 
     @import './components/sections/productSpecialization';
     @import './components/sections/chooseUs';
     @import './components/sections/contactUs';
     @import './components/sections/subscribe';
+    @import './components/sections/aboutUs';
+    @import './components/sections/footer';
+
+
+    // @import './fonts/fonts';
 
     background-color: $grey;
 }

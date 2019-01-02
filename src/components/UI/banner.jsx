@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Container, Jumbotron, Display4, Lead } from 'bootstrap-4-react';
+import { Row, Col, Container, Jumbotron, Lead } from 'bootstrap-4-react';
 import { CTButton } from './button';
 
 export const Banner = () => 
@@ -7,7 +7,7 @@ export const Banner = () =>
         <Container>
             <Row>
                 <Col col="col lg-8">
-                    <Display4>Insurance do matter</Display4>
+                    <h1>Insurance do matter</h1>
                     <Lead>This is a simple banner unit.</Lead>
                     <CTButton text="Get a quote"/>
                 </Col>

@@ -22,12 +22,16 @@
   border-radius: 0px;
   color: white;
   text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
 }
 #app .topbar {
   background-color: #292974;
 }
 #app .topbar ul li a {
   color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 #app .topbar .left img {
   margin-right: 0.5rem;
@@ -45,6 +49,8 @@
   padding-right: 0;
 }
 #app .navigation ul li a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
   color: #292974;
   font-weight: bold;
 }
@@ -56,17 +62,28 @@
 #app .banner {
   text-align: left;
 }
-#app .banner .display-4 {
+#app .banner h1 {
   text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+#app .banner .lead {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 #app .infiniteSlide {
   background-color: white;
+}
+#app .social-links img {
+  margin-left: 2em;
 }
 #app .productSpecialization {
   text-align: center;
 }
 #app .productSpecialization h4 {
   margin: 2em 0em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 #app .productSpecialization .card {
   margin-bottom: 3em;
@@ -75,6 +92,8 @@
 }
 #app .productSpecialization .card .card-title {
   text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 #app .productSpecialization .card .card-title .underline:after {
   content: "";
@@ -86,6 +105,8 @@
 }
 #app .productSpecialization .card .card-text {
   padding: 0.5em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 #app .productSpecialization .card img {
   margin-top: 0.5em;
@@ -97,23 +118,51 @@
 #app .chooseUs h4 {
   text-align: center;
   margin-bottom: 2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 #app .chooseUs .choose-items {
   text-align: left;
   margin-bottom: 4em;
+}
+#app .chooseUs .choose-items .text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+#app .chooseUs .choose-items .subText {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 0.8em;
 }
 #app .contactUs {
   text-align: center;
 }
 #app .contactUs h4 {
   margin-top: 2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
-#app .contactUs .contactForm input {
-  height: 2em;
+#app .contactUs h4 + p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-bottom: 3em;
+}
+#app .contactUs .contactForm label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+#app .contactUs .contactForm input, #app .contactUs .contactForm select {
+  height: 3em;
 }
 #app .contactUs .contactForm input, #app .contactUs .contactForm select, #app .contactUs .contactForm textarea {
   width: 100%;
   margin-bottom: 1em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+#app .contactUs .maps label, #app .contactUs .maps p, #app .contactUs .maps input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 #app .contactUs button {
   min-width: 10em;
@@ -121,10 +170,40 @@
 }
 #app .subscribe {
   padding-top: 3em;
-  padding-bottom: 3em;
+  padding-bottom: 2.5em;
 }
 #app .subscribe .d-flex {
   justify-content: center;
+}
+#app .subscribe h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+#app .subscribe input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+#app .aboutUs h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+#app .aboutUs p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+#app footer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+#app footer a {
+  color: white;
+}
+#app footer .follow-us {
+  padding: 1em 0em;
+}
+#app footer .follow-us p {
+  color: white;
+  text-align: center;
 }
 
 /*# sourceMappingURL=App.css.map */

@@ -3,4 +3,5 @@ button.btn {
     border-radius: 0px;
     color: white;
     text-transform: uppercase;
+    @include opensansBold; 
 }

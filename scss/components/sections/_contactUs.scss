@@ -2,16 +2,33 @@
     text-align: center;
     h4 {
         margin-top: 2em;
+        @include montserratBold;
+        &+p {
+            @include montserratRegular;
+            margin-bottom: 3em;
+        }
     }
     .contactForm {
-        input {
-            height: 2em;
+        label {
+            @include montserratRegular;
+        }
+        input, select {
+            height: 3em;
         }
         input, select, textarea {
             width: 100%;
             margin-bottom: 1em;
+            @include montserratRegular;
+        }
+
+        
+    }
+    .maps {
+        label, p, input {
+            @include montserratRegular;
         }
     }
+
     button {
         min-width: 10em;
         margin-bottom: 2em;

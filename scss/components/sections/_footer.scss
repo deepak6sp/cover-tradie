@@ -1,0 +1,14 @@
+footer {
+    
+    @include montserratRegular; 
+    a {
+        color: white;
+    }
+    .follow-us {
+        padding: 1em 0em;
+        p {
+            color: white;
+            text-align: center;
+        }
+    }
+}

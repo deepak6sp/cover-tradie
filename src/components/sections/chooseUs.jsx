@@ -41,16 +41,16 @@ export class ChooseUs extends Component {
         return (
             chooseItems.map( (item, index) => {
                 let offsetClassValue = "lg-1";
-                if( index%2 == 0 ) offsetClassValue = "lg-2";
+                if( index%2 === 0 ) offsetClassValue = "lg-2";
                 return (
                     <Col col="12 md-6 lg-4" offset={offsetClassValue} key={index}>
                         <Row className='choose-items'> 
                             <Col col="2" >
-                                <img src={Icons[item.icon]}/>
+                                <img alt={item.icon} src={Icons[item.icon]}/>
                             </Col>
                             <Col col="10">
-                                <div>{item.description}</div>
-                                <div>{item.caption}</div>
+                                <div className="text">{item.description}</div>
+                                <div className="subText">{item.caption}</div>
                             </Col>
                         </Row>
                     </Col>

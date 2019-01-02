@@ -1,6 +1,10 @@
 .banner {
     text-align: left;
-    .display-4 {
+    h1 {
         text-transform: uppercase;
+        @include opensansBold; 
+    }
+    .lead {
+        @include opensansRegular; 
     }
 }

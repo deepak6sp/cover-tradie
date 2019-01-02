@@ -1,0 +1,8 @@
+.aboutUs {
+    h4 {
+        @include montserratBold;
+    }
+    p {
+        @include montserratRegular;
+    }
+}

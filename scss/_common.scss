@@ -19,8 +19,25 @@
     }
 }
 
-// @media (max-width: 991px) {
-//     .container {
-//         padding: 0;
-//     }
-// }
+// mixins
+
+@mixin montserratRegular {
+    font-family: $montserrat;
+    font-weight: 400;
+}
+
+@mixin montserratBold {
+    font-family: $montserrat;
+    font-weight: 700;
+}
+
+@mixin opensansRegular {
+    font-family: $opensans;
+    font-weight: 400;
+}
+
+@mixin opensansBold {
+    font-family: $opensans;
+    font-weight: 700;
+}
+    

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Container, Col } from 'bootstrap-4-react';
+import { Container, Col } from 'bootstrap-4-react';
 import './infiniteSlide.css';
 
 export const InfiniteSlide = () =>
