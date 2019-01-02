@@ -43,7 +43,7 @@ export class ChooseUs extends Component {
                 let offsetClassValue = "lg-1";
                 if( index%2 === 0 ) offsetClassValue = "lg-2";
                 return (
-                    <Col col="12 md-6 lg-4" offset={offsetClassValue} key={index}>
+                    <Col col="12 md-6 lg-5" offset="lg-1" key={index}>
                         <Row className='choose-items'> 
                             <Col col="2" >
                                 <img alt={item.icon} src={Icons[item.icon]}/>
