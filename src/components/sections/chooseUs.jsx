@@ -40,8 +40,6 @@ export class ChooseUs extends Component {
     chooseItems = () => {
         return (
             chooseItems.map( (item, index) => {
-                let offsetClassValue = "lg-1";
-                if( index%2 === 0 ) offsetClassValue = "lg-2";
                 return (
                     <Col col="12 md-6 lg-5" offset="lg-1" key={index}>
                         <Row className='choose-items'> 
