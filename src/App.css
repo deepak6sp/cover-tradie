@@ -59,6 +59,10 @@
     margin-left: 1em;
   }
 }
+#app .navigation ul li a:hover {
+  cursor: pointer;
+  color: #36369a;
+}
 #app .banner {
   text-align: left;
 }
@@ -78,10 +82,11 @@
   margin-left: 2em;
 }
 #app .productSpecialization {
+  padding-top: 2em;
   text-align: center;
 }
 #app .productSpecialization h4 {
-  margin: 2em 0em;
+  margin-bottom: 2em;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
@@ -114,6 +119,7 @@
 }
 #app .chooseUs.jumbotron {
   padding-bottom: 0;
+  padding-top: 3rem;
 }
 #app .chooseUs h4 {
   text-align: center;
@@ -136,9 +142,9 @@
 }
 #app .contactUs {
   text-align: center;
+  padding-top: 2em;
 }
 #app .contactUs h4 {
-  margin-top: 2em;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }

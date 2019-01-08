@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Navbar, Nav, Collapse } from 'bootstrap-4-react';
+import { Link } from 'react-scroll'
 
 export const Navigation = () =>
     
@@ -12,20 +13,25 @@ export const Navigation = () =>
             <Collapse navbar id="navbarSupportedContent" className="justify-content-end">
                 <Navbar.Nav>
                     <Nav.Item active>
-                        <Nav.Link href="#">Products</Nav.Link>
+                        <Link to="productSpecialization" spy={true} smooth={true} duration={500} >Products</Link>
+                        {/* <Nav.Link href="#">Products</Nav.Link> */}
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href="#">Why Choose Us</Nav.Link>
+                        <Link to="chooseUs" spy={true} smooth={true} duration={500} >Why Choose Us</Link>
                     </Nav.Item>
+                    {/*
                     <Nav.Item>
                         <Nav.Link href="#">Make a Claim</Nav.Link>
                     </Nav.Item>
+                    */}
                     <Nav.Item>
-                        <Nav.Link href="#">Contact Us</Nav.Link>
+                        <Link to="contactUs" spy={true} smooth={true} duration={500} >Contact Us</Link>
                     </Nav.Item>
+                    {/*
                     <Nav.Item>
                         <Nav.Link href="#">About Us</Nav.Link>
                     </Nav.Item>
+                    */}
                 </Navbar.Nav>
             </Collapse>
         </Container>

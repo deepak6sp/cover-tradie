@@ -13,6 +13,10 @@
             @media (min-width: 991px) {
                 margin-left: 1em;
             }
+            &:hover {
+                cursor: pointer;
+                color: lighten($blue, 10%);
+            }
         }
     }
 }

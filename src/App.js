@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
+import { Element } from 'react-scroll'
 import './App.css';
 import { Header } from './components/sections/header';
-import { InfiniteSlide } from './components/UI/infiniteSlide/infiniteSlide';
 import { ProductSpecialization } from './components/sections/productSpecialization';
 import { ChooseUs } from './components/sections/chooseUs';
 import { ContactUs } from './components/sections/contact/contactUs';
-import { AboutUs } from './components/sections/aboutUs';
 import { Footer } from './components/sections/footer';
 
 class App extends Component {
@@ -13,11 +12,11 @@ class App extends Component {
     return (
       <div id="app">
         <Header />
-        <InfiniteSlide />
-        <ProductSpecialization />
-        <ChooseUs />
-        <ContactUs />
-        <AboutUs />
+        {/* <InfiniteSlide /> */}
+        <Element name="productSpecialization"><ProductSpecialization /> </Element>
+        <Element name="chooseUs"> <ChooseUs /> </Element>
+        <Element name="contactus"> <ContactUs /></Element>
+        {/* <AboutUs /> */}
         <Footer />
       </div>
     );

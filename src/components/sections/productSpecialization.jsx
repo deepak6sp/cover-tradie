@@ -18,23 +18,25 @@ const productItems = [
         icon: 'boat',
         name: 'Boat',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
-    },
-    {
-        icon: 'liability',
-        name: 'Liability',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
-    },
-    {
-        icon: 'accident',
-        name: 'Accident & health',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
-    },
-    {
-        icon: 'tools',
-        name: 'Tools',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
     }
 ];
+
+
+    // {
+    //     icon: 'liability',
+    //     name: 'Liability',
+    //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
+    // },
+    // {
+    //     icon: 'accident',
+    //     name: 'Accident & health',
+    //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
+    // },
+    // {
+    //     icon: 'tools',
+    //     name: 'Tools',
+    //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
+    // }
 
 
 export class ProductSpecialization extends Component {

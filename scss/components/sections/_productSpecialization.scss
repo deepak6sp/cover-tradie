@@ -1,7 +1,8 @@
 .productSpecialization {
+    padding-top: 2em;
     text-align: center;
     h4 {
-        margin: 2em 0em;
+        margin-bottom: 2em;
         @include montserratBold;
     }
     .card {

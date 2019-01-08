@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, InputGroup, Button, Form } from 'bootstrap-4-react';
+import { Row, Col } from 'bootstrap-4-react';
 
 const mapStyle = {
     width: "100%",
@@ -24,6 +24,7 @@ export const Maps = () =>
                 Working hours<br/>
                 <span>8:am to 5pm</span>
             </p>
+            {/*
             <label>Schedule a call back</label>
             <InputGroup mb="3">
                 <Form.Input type="text" placeholder="your phone number" />
@@ -31,5 +32,6 @@ export const Maps = () =>
                     <Button outline secondary>Get a phone call</Button>
                 </InputGroup.Append>
             </InputGroup>
+            */}
         </Col>
     </Row>;
