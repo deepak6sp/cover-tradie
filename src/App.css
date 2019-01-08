@@ -17,13 +17,26 @@
 #app .jumbotron h4.inverse, #app .container h4.inverse {
   color: white;
 }
-#app button.btn {
+#app a.btn {
   background: #fcb13b;
   border-radius: 0px;
   color: white;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
+  border: 0.1em solid transparent;
+}
+#app a.btn:hover {
+  background: white;
+  border: 0.1em solid #fcb13b;
+  color: #fcb13b !important;
+}
+#app a.btn a {
+  color: white;
+  text-decoration: none;
+}
+#app a.btn:focus {
+  box-shadow: none;
 }
 #app .topbar {
   background-color: #292974;
@@ -75,6 +88,11 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
 }
+#app .banner .btn:hover {
+  border: 0.1em solid transparent !important;
+  background: #fcb13b !important;
+  color: white !important;
+}
 #app .infiniteSlide {
   background-color: white;
 }
@@ -116,6 +134,7 @@
 #app .productSpecialization .card img {
   margin-top: 0.5em;
   margin-bottom: 2em;
+  width: 3em;
 }
 #app .chooseUs.jumbotron {
   padding-bottom: 0;

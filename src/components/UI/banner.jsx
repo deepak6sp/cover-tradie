@@ -9,7 +9,7 @@ export const Banner = () =>
                 <Col col="col lg-8">
                     <h1>Insurance do matter</h1>
                     <Lead>This is a simple banner unit.</Lead>
-                    <CTButton text="Get a quote"/>
+                    <CTButton text="Get a quote" href={true}/>
                 </Col>
             </Row>
         </Container>

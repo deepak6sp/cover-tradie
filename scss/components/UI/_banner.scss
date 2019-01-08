@@ -7,4 +7,9 @@
     .lead {
         @include opensansRegular; 
     }
+    .btn:hover {
+        border: 0.1em solid transparent!important;
+        background: $yellow!important;
+        color: white!important;
+    }
 }

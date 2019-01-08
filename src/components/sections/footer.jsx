@@ -13,7 +13,7 @@ export const Footer = () =>
                         (ICAR No 001271499) of Mega Lines Pty Ltd (AFSL No 495082). Mega Lines is the member
                         of the National Insurance Brokers Association (NIBA) and the Steadfast Cluster Group.
                     </p>
-                    <Nav.ItemLink href={pdf} download>Terms & services</Nav.ItemLink>
+                    <Nav.ItemLink href={pdf} target="_blank" download>Terms & services</Nav.ItemLink>
                 </Navbar.Nav>
                 {/*
                 <Navbar.Nav>

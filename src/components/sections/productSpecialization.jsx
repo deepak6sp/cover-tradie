@@ -44,7 +44,7 @@ export class ProductSpecialization extends Component {
         return  (
             productItems.map( (item, index) => {
                 return (
-                    <Col col="12 md-6 lg-4" key={index}>
+                    <Col col="12 lg-4" key={index}>
                         <Card>
                             <Card.Body>
                                 <img alt={item.icon} src={Icons[item.icon]} />
