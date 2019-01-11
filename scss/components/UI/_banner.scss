@@ -1,5 +1,11 @@
 .banner {
     text-align: left;
+    border-radius: 0px;
+    min-height: 25em;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
     h1 {
         text-transform: uppercase;
         @include opensansBold; 

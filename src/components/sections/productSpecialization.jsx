@@ -5,19 +5,19 @@ import Icons from '../svg/icons.jsx';
 
 const productItems = [
     {
+        icon: 'liability',
+        name: 'Business & Liability',
+        description: "Organising public liability and other business related insurances is easy with us. You'll get the right cover at the right price for your business with us."
+    },
+    {
         icon: 'car',
-        name: 'Car',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
+        name: 'Commercial & private vehicles',
+        description: 'Let us keep you going with high quality insurance for your vehicles with features like agreed value, loan car, free windscreen excess etc.'
     },
     {
         icon: 'home',
-        name: 'Home',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
-    },
-    {
-        icon: 'boat',
-        name: 'Boat',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '
+        name: 'Home & Contents',
+        description: 'Protecting your aussie dream! We can bundle your private and business insurances keeping you covered and all organised.'
     }
 ];
 
@@ -65,7 +65,7 @@ export class ProductSpecialization extends Component {
     render() {
         return  (
             <Container className="productSpecialization">
-                <h4>Our product specializations</h4>
+                <h4>Our Product Specialisations</h4>
                 <Row>
                 { this.mapProducts() }
                 </Row>

@@ -1,13 +1,14 @@
 import React from 'react';
 import { Container, Navbar, Nav, Collapse } from 'bootstrap-4-react';
-import { Link } from 'react-scroll'
+import { Link } from 'react-scroll';
+import logo from './logo.png';
 
 export const Navigation = () =>
     
     <Navbar expand="lg" light bg="light" className="navigation">
         <Container>
             <Navbar.Brand href="#">
-                CT
+                <img width="150" src={logo} alt="logo"/>
             </Navbar.Brand>
             <Navbar.Toggler target="#navbarSupportedContent" />
             <Collapse navbar id="navbarSupportedContent" className="justify-content-end">

@@ -25,6 +25,13 @@
             padding: 0.5em;
             @include montserratRegular;
         }
+        .card-body {
+            justify-content: space-around;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 24em;
+        }
         img {
             margin-top: 0.5em;
             margin-bottom: 2em;
